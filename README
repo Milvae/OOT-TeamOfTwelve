@@ -1,1 +1,14 @@
 Welcome to our Project "TeamOfTwelve"
+
+Project of the University of Applied Science Mannheim
+
+How to use with egit:
+Install egit and jgit as described, fork the project here at the site from
+KayK. Now Import the Project in git using the SSH URL of your Fork:
+git@github.com:$USERNAME/OOT-TeamOfTwelve.git
+protocol: git+ssh
+user: git
+pw: none
+[next]
+
+You'll be asked for the password of your SSH-Key, login is still git.
