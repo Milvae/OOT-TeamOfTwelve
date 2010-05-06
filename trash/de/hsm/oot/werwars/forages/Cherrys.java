@@ -1,5 +1,9 @@
 package de.hsm.oot.werwars.forages;
 
-public class Cherrys extends Forage {
+import java.io.FileNotFoundException;
 
+public class Cherrys extends Forage {
+	public Cherrys() throws FileNotFoundException {
+		super("Cherrys",Forage.getIcon("cherrys.png"));
+	}
 }
